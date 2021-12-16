@@ -96,6 +96,7 @@ class Background(
         ctx.moveTo(line.p1.x.toDouble(), line.p1.y.toDouble())
         ctx.lineTo(line.p2.x.toDouble(), line.p2.y.toDouble())
         ctx.stroke()
+        ctx.closePath()
     }
 
 }
